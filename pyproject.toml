@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rolling-residency-calculator"
+version = "0.1.0"
+description = ""
+authors = ["ajmalabu <ajmalabu74@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rolling_residency_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.8.2"
+mplcursors = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
